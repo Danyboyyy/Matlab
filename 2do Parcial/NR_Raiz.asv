@@ -1,0 +1,10 @@
+function [] = NR_Raiz(f, df, it, xi)
+    for i = 0:it
+        fxi = f(xi);
+        dfxi = df(xi);
+        res = xi - (fxi / dfxi);
+        ea = (res - xi) / res;
+        p1 = ["It ", i, " = ", res];
+        disp(p1);
+    end
+end
