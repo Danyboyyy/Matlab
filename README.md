@@ -1,9 +1,14 @@
 # Matlab
 Matlab scripts for the numeric methods class
 
-## Scripts to calculate
+## Scripts that implement
 * Gauss-Seidel
 * Newton-Raphson
 * LU Decomposition
-* Simpson's Integration
+* Secant Method
+* Euler´s Method
+* Runge-Kutta
+* Ralston
+* Middle-Point
+* Simpson's 1/3 and 3/8 Integration
 
